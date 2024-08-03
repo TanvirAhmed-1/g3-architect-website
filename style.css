@@ -3,54 +3,60 @@
     padding: 0;
 }
 .header-section{
-    background-color: rgb(255, 244, 230);
-    max-width:1286px;
+    background-color: rgba(255, 144, 14, 0.1);
+    max-width:1920px;
     margin: 0 auto;
     /* max-height: 150px; */
 }
 .nav-div{
-    display: flex;
-    justify-content: space-around;
-    max-width: 1400px;
+    max-width:1920px;
+    margin: 0 auto;
 }
 .nav-button ul{
     display: flex;
     gap: 50px;
     align-items: center;
     list-style: none;
-    margin-left: 300px;
+    /* margin-left: 300px; */
 }
 .nav-title{
-    margin-top: 30px;
+    padding-top: 30px;
     display: flex;
    align-items: center;
+   justify-content: space-around;
 }
-.nav-button ul li{
 
-}
 .nav-button ul li a{
     text-decoration: none;
 }
 .banner-img{
     width: 100%;
-    margin-bottom: 20px;
-
+    margin-bottom: 40px;
+    max-width: 1440px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin:40px;
+}
+.banner-img img{
+    width: 100%;
 }
 .a-tag{
-    font-size: 1.25rem;
-    color: rgb(52, 51, 49);
-    font-weight: 500;
+    font-size: 1.1rem;
+    color:#424242;
+    font-weight: 400;
 }
 .title-g{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+   font-weight: 700;
+   line-height: 53px;
 }
 .title-header{
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 700px;
-    margin: 0 auto;
     margin-top:60px ;
     
 }
@@ -62,41 +68,72 @@
     flex-direction: column; 
     text-align: center;
     margin: 0 auto;
-    gap: 20px;
+    gap: 25px;
+    max-width: 862px;
+    margin: 0 auto;
+    margin-bottom: 32px;
 }
 .primar-btn{
 
-background-color:orange ;
-color: white;
+border-radius: 8px;
+background: rgb(255, 144, 14);
 text-align: center;
 padding: 15px 20px;
-font-size: 1rem;
-border-radius: 8px;
-margin-bottom: 30px;
+font-size: 1.25rem;
 cursor: pointer;
 border: none;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-weight: 600;
+line-height: 23px;
 }
 /* shear style */
 .p-p{
-  color: rgb(183, 171, 155);
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 20px;
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 .title h1{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
+    color: #131313;
 }
 
-/* list of ourFeatures */
+/* list of our Features */
+
 .feature-p{
     text-align: start;
+    margin: 30px 0;
+
 }
 .Features{
-    max-width: 1040px;
-    display: flex;
+    max-width: 1440px;
     margin: 0 auto;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    gap: 50px;
+    margin-top: 85px;
+    margin-bottom: 130px;
+}
+.des{
+    max-width: 537px;
+    margin: 0 auto;
+}
+.des h1{
+    font-family: Work Sans;
+   font-size: 45px;
+   font-weight: 700;
+   line-height: 53px;
+   text-align: start;
+}
+.list{
+    color: rgb(114, 114, 114);  
+}
+.list-2{
+   color: rgb(255, 144, 14); 
 }
 .div-1{
     display: grid;
@@ -116,40 +153,67 @@ border: none;
 /* footer */
 footer{
     background-color: rgb(255, 229, 196);
-    margin: 40px;
+    margin-bottom:50px;
     border-radius: 10px;
+    margin-top: 150px;
 }
 footer h4{
-   font-size: 1rem;
-   font-weight: 500;
-   padding-top: 20px ;
-   padding-bottom: 40px ;
+   font-size: 1.25rem;
+   padding-top: 30px ;
+   padding-bottom: 30px ;
    text-align: center;
+   color: rgb(66, 66, 66);
+   font-family: Work Sans;
+   font-weight: 400;
+   line-height: 23px;
 }
 /* Features you will love & enjoy */
 
 .love-enjoy{
     display:grid;
     grid-template-columns:repeat(2,1fr) ;
-    max-width: 1040px;
+    max-width: 1440px;
+    /* max-height: 1059px; */
     margin: 0 auto;
-    gap: 100px;
-    /* background-color: aquamarine; */
-    margin-top: 100px;
+    /* gap:92px; */
 }
-.love-div2 img{
+.architect-img img{
     width: 100%;
+    margin-left: 97px;
+    margin-bottom: 77px;
 }
 .enjoy{
     display: grid;
     grid-template-rows: repeat(4,1fr);
-    gap: 20px;
+    gap: 50px;
     margin-top: 40px;
 }
 .love-title{
-    border: 1px solid beige;
-    border-radius: 10px;
-    padding: 20px;
+    padding: 30px 45px 30px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    text-align: start;
+    max-width: 586px;
+    /* background-color: aqua; */
+}
+.div1-h1{
+    border-left:5px solid rgb(255, 144, 14);
+    padding-left: 15px;
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+.div1-h{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 24px;
 }
 .love-p{
     overflow: hidden;
@@ -160,31 +224,74 @@ footer h4{
     font-weight: bold;
     margin-bottom:10px ;
 }
+.love-div2{
+
+}
+
+.experience-btn{
+ background-color: rgb(255, 144, 14);
+ border: none;
+ border-radius: 10px;
+ padding: 46px 42px;
+ text-align: center;
+ margin-top: -196px;
+ position: absolute;
+}
+.year{
+    color: white;
+    line-height: 70px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4rem;
+
+}
+.year-ex{
+    color: white;
+    font-size: 1.50rem;
+    text-align: center;
+}
 /* Some Facts */
 
 .Some-Facts{
-    max-width: 1040px;
+    max-width: 1440px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 120px;
 
 }
 .project-1{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .project-div{
     border: 1px solid orange;
-    display: flex;
-    flex-direction:column;
     gap: 10px;
- text-align: center;
- max-width: 150px;
-  border-radius: 10px;
- padding: 30px;
-
+    text-align: center;
+     border-radius: 10px;
+     max-width: 240px;
+     max-height: 240px;
   
+}
+.div-box{
+    margin: 46px 37px 60px 36px;
+    
+}
+.div-box h1{
+    margin-top: 15px;
+    margin-bottom: 7px;
+    color: rgb(66, 66, 66);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 600;
+line-height: 53px;
+}
+.div-box span{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
 }
 .project-img{
     width: 100%;
@@ -192,23 +299,21 @@ footer h4{
 /* our Sponspors */
 .Sponspors{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     gap: 50px;
-    max-width:1040px ;
+    max-width:1440px ;
     margin: 0 auto;
+    margin-top: 150px;
     
 }
 .our1{
-    max-width: 500px;
+    max-width: 540px;
     margin: 0 auto;
     text-align: center;
 }
 .our2{
-    max-width: 1040px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    justify-content: space-between;
 }
 .our2 img{
  filter: grayscale(100%);
